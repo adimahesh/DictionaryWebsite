@@ -4,6 +4,8 @@
     { "src": "Dictionary.html", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/Dictionary.js", "dest": "/Dictionary.js" },
+    { "src": "/Dictionary.css", "dest": "/Dictionary.css" },
     { "src": "/", "dest": "/Dictionary.html" },
     { "src": "/(.*)", "dest": "/Dictionary.html" }
   ]
