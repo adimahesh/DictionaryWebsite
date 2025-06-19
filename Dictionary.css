@@ -1,0 +1,114 @@
+:root{
+    --primecolor: rgb(11, 201, 125);
+}
+
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    min-height: 100vh; 
+    width: 100%;
+}
+#navi{ 
+    min-height: 10vh;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: var(--primecolor);
+    color: white;
+}
+form{
+    min-height: 80vh;
+    width: 100%;
+    margin: auto;
+    
+    
+    
+}
+.sendarea1{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 10px;}
+#sendarea{
+    width: 60%;
+    min-height: 5vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+    justify-content: center;
+  
+}
+#sendarea input[type="text"]{
+  
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#sendarea button{
+    border: none;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: var(--primecolor);
+      color: aliceblue;
+
+  }
+
+  footer{
+    background-color: var(--primecolor);
+    min-height: 9vh;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items:center;
+  }
+  #txtarea{
+    margin-top: 15px;
+    /* min-height: 50vh; */
+    height: min-content;
+    background-color: aliceblue;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.129);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    padding: 10px;
+    
+  }
+
+  .wiki{
+    text-decoration:none;
+    color:white;
+    background-color: var(--primecolor);
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 12px;
+     
+    
+
+  }
+
+  div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+   
+  }
+  
